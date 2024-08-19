@@ -1,8 +1,9 @@
-package com.zwg.xfj.net;
+package com.zyhp.zwglib.net;
 
 import android.util.Log;
 
-import com.zwg.xfj.utils.Logger;
+
+import com.zyhp.zwglib.utils.Logger;
 
 import io.reactivex.rxjava3.annotations.NonNull;
 import io.reactivex.rxjava3.disposables.Disposable;

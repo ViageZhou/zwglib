@@ -1,4 +1,4 @@
-package com.zwg.xfj.utils;
+package com.zyhp.zwglib.utils;
 
 import android.content.Context;
 import android.content.res.Resources;

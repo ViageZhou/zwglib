@@ -1,0 +1,57 @@
+plugins {
+    alias(libs.plugins.android.library)
+//    apply plugin: 'com.github.dcendents.android-maven'
+
+}
+group = 'com.github.ViageZhou'
+
+
+android {
+    namespace 'com.zyhp.zwglib'
+    compileSdk BuildVersion.compileSdkVersion
+
+    defaultConfig {
+        minSdk BuildVersion.minSdkVersion
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildFeatures {
+        compose true
+        dataBinding true
+        viewBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation libs.androidx.appcompat
+    implementation libs.material
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.junit
+    androidTestImplementation libs.androidx.espresso.core
+
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
+    api 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+    api "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation 'com.squareup.retrofit2:adapter-rxjava3:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+
+    implementation 'com.tencent:mmkv:1.3.1'
+
+    implementation libs.rxjava
+    implementation libs.rxandroid
+
+}

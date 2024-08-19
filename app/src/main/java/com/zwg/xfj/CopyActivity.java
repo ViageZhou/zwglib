@@ -3,6 +3,7 @@ package com.zwg.xfj;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.zwg.xfj.databinding.ActivityMainBinding;
+import com.zyhp.zwglib.base.BaseMVVMActivity;
 
 public class CopyActivity extends BaseMVVMActivity<ActivityMainBinding, MainViewModel> {
     public static final String TAG = CopyActivity.class.getSimpleName();

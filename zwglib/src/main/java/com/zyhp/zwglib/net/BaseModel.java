@@ -1,4 +1,4 @@
-package com.zwg.xfj.net;
+package com.zyhp.zwglib.net;
 
 /**
  * Created by shuidi on 2023/7/17.

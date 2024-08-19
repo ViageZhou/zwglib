@@ -1,18 +1,8 @@
 package com.zwg.xfj.db;
 
 
-import android.content.ContentValues;
-import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.zwg.xfj.utils.Logger;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import io.reactivex.rxjava3.core.Observable;
-import io.reactivex.rxjava3.core.ObservableOnSubscribe;
-import io.reactivex.rxjava3.schedulers.Schedulers;
 
 
 /**

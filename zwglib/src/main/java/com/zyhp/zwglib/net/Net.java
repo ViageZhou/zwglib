@@ -1,16 +1,12 @@
-package com.zwg.xfj.net;
+package com.zyhp.zwglib.net;
 
-import android.util.ArrayMap;
 import android.util.Log;
 
 import com.google.gson.Gson;
-import com.zwg.xfj.utils.Logger;
+import com.zyhp.zwglib.utils.Logger;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.core.Observable;
 import io.reactivex.rxjava3.functions.Function;
 import io.reactivex.rxjava3.schedulers.Schedulers;

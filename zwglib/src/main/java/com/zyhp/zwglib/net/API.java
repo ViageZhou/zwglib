@@ -1,8 +1,6 @@
-package com.zwg.xfj.net;
+package com.zyhp.zwglib.net;
 
 
-
-import java.util.List;
 
 import io.reactivex.rxjava3.core.Observable;
 import okhttp3.RequestBody;

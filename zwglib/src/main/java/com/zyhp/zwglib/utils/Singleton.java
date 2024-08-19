@@ -1,4 +1,4 @@
-package com.zwg.xfj.utils;
+package com.zyhp.zwglib.utils;
 
 /**
  * Created by ZhouWengong on 2024/7/29.

@@ -4,6 +4,7 @@ package com.zwg.xfj;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.zwg.xfj.databinding.ActivityMainBinding;
+import com.zyhp.zwglib.base.BaseMVVMActivity;
 
 
 public class MainActivity extends BaseMVVMActivity<ActivityMainBinding, MainViewModel> {
