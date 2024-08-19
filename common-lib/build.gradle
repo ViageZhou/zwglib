@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('FaceSDK_8.1_20230216-release.aar'))
